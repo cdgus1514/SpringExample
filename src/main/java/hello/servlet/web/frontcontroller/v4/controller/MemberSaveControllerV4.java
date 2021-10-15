@@ -2,7 +2,7 @@ package hello.servlet.web.frontcontroller.v4.controller;
 
 import hello.servlet.domain.member.Member;
 import hello.servlet.domain.member.MemberRepository;
-import hello.servlet.web.frontcontroller.ControllerV4;
+import hello.servlet.web.frontcontroller.v4.ControllerV4;
 
 import java.util.Map;
 
