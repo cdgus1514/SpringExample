@@ -14,6 +14,11 @@ public class OldController implements Controller {
     @Override
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
         System.out.println("OldController.handleRequest");
-        return null;
+
+        // 컨트롤러는 호출되었지만 뷰를 못찾음 > 뷰 리졸버 필요
+
+        // 스프링 부트에서 InternalResourceViewResolver에서 application.properties의
+        // spring.mvc.view.prefix(suffix) 설정정보로 등록
+        return new ModelAndView("new-form");
     }
 }
