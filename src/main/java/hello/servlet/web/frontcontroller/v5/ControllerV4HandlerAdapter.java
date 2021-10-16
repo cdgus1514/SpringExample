@@ -1,7 +1,6 @@
 package hello.servlet.web.frontcontroller.v5;
 
 import hello.servlet.web.frontcontroller.ModelView;
-import hello.servlet.web.frontcontroller.MyView;
 import hello.servlet.web.frontcontroller.v4.ControllerV4;
 
 import javax.servlet.ServletException;
